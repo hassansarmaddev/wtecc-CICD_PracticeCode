@@ -20,3 +20,5 @@ USER service
 ENV PORT 8000
 EXPOSE $PORT
 CMD ["gunicorn", "service:app", "--bind", "0.0.0.0:8000"]
+
+#THERE ARE NO OTHER WAYS THAT T HIS IS TH ETYPES OF ATOMS AND THE NU BER OFA 
